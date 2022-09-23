@@ -40,6 +40,7 @@ const checkFunc = () => {
     }
   } else if (Number(guessField.value) === randomNum) {
     msField.textContent = ('💰 you win')
+    //hide num on screen
     numField.textContent = randomNum
     document.querySelector('body').style.backgroundColor = 'green'
     //get the score to compare trackscore
